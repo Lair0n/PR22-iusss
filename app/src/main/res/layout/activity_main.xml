@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/stepview"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dip"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            />
+
+        <Chronometer xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/timeview"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+</LinearLayout>
